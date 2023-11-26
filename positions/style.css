@@ -1,0 +1,28 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border: 2px solid black;
+  display: inline-block;
+}
+#box1 {
+  background-color: red;
+  position: relative;
+  left: auto;
+  background-image: url(./cat_photo.jpg);
+  background-size: cover;
+}
+#box2 {
+  background-color: green;
+  position: absolute;
+  top: 123px;
+}
+#box3 {
+  background-color: blue;
+  position: fixed;
+  /* top: 23px;
+  position: sticky; */
+}
+#box4 {
+  background-color: yellow;
+}

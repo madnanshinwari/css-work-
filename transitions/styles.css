@@ -1,0 +1,40 @@
+div {
+  height: 300px;
+  width: 300px;
+  background-color: blueviolet;
+  border: 2px solid black;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 1s;
+  /* transform: rotate(360deg); */
+  /* transform: scale(1.5);  */
+  animation-name: colorAnimation;
+  animation-duration: 1.25s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+@keyframes colorAnimation {
+  form {
+    left: 0px;
+    background-color: blue;
+  }
+  to {
+    left: 200px;
+    background-color: yellow;
+  }
+}
+/* 
+div:hover{
+  transition-timing-function: steps(4);
+  transform: rotate(90deg);
+   transform: translateX(200px);
+  transform: skew(90deg); 
+} */
+/* div:active {
+  background-color: yellow;
+} */

@@ -1,0 +1,16 @@
+* {
+  font-family: "Times New Roman";
+}
+#heading1 {
+  text-align: center;
+}
+#para1 {
+  text-transform: uppercase;
+}
+
+#outer {
+  text-size-adjust: 34rem;
+}
+#inner {
+  text-size-adjust: 12px;
+}

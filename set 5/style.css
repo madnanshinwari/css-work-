@@ -1,0 +1,10 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+  border: 2px solid black;
+  background-image: url(./love\ nature.jpg);
+  background-size: cover;
+  position: fixed;
+  right: 30px;
+}
